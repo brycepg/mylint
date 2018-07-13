@@ -6,7 +6,6 @@ import astroid
 
 class MyChecker(checkers.BaseChecker):
     __implements__ = interfaces.IAstroidChecker
-    name = "foo"
     msgs = {
         'R9991': ("Consider Using %s.extend(%s)",
                   "consider-using-extend",
